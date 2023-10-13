@@ -65,7 +65,7 @@ public class TemaEx2 {
         List <Produs> lista_produse= new ArrayList<>();
         Scanner sc = new Scanner(new File("C:\\Users\\Florentina\\Desktop\\produs.cvs"));
         sc.useDelimiter(",");
-        while (sc.hasNext())
+        while (sc.hasNext())         
         {   String linie = sc.nextLine();
             String[] splited = linie.split(",");
             lista_produse.add(new Produs(splited[0], Float.parseFloat(splited[1]), Integer.parseInt(splited[2]), LocalDate.parse(splited[3])));
