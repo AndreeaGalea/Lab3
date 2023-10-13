@@ -43,6 +43,9 @@ class Parabola{
 
 }
 
+
+
+
 public class TemaEx1 {
     public static void main(String[] args) throws FileNotFoundException {
         List <Parabola> parabole= new ArrayList<Parabola>();
